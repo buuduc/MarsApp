@@ -4,12 +4,11 @@ import Icon from '@expo/vector-icons/AntDesign';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import Login from './scr/screen/Login';
 import Demo from './scr/screen/Demo';
-t=1
+var t=1
 export default class App extends React.Component {
     render() {
         return (
           <View style = { styles.container }>
-            
             <Login/>
 
           </View >
